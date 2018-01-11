@@ -10,3 +10,6 @@
 <li>Decide which interface to use</li>
 
 </ul>
+You do it Pg. 124<br>
+Debugging Exercises<br>
+Case Problem 1 Pg. 135<br>

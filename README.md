@@ -1,4 +1,4 @@
-# Chapter-3
+# Chapter 3
 <h2>Using GUI Objects and the Visual Studio IDE</h2>
 
 <ul>

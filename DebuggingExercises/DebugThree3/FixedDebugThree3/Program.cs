@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace FixedDebugThree3
+namespace FixedDebug3
 {
     static class Program
     {

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interactive eggs", "interactive eggs\interactive eggs.csproj", "{CC4FECFE-970D-4CBC-BFCF-591F1A3BA735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4FECFE-970D-4CBC-BFCF-591F1A3BA735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4FECFE-970D-4CBC-BFCF-591F1A3BA735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4FECFE-970D-4CBC-BFCF-591F1A3BA735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4FECFE-970D-4CBC-BFCF-591F1A3BA735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15AA2FB8-0CB2-40DB-A330-7AB3D428ECE8}
+	EndGlobalSection
+EndGlobal

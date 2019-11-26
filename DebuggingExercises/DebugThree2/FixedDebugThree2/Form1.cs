@@ -18,12 +18,19 @@ namespace FixedDebugThree2
 
         private void helloButton_Click(object sender, EventArgs e)
         {
-            outputLabel = "Goodbye, " + textBox1.Text + "!";
+            double enteredName;
+            enteredName = Convert.ToDouble(txtEnteredName.Text);
+            lblOutput = "Goodbye, " + enteredName + "!";
         }
 
         private void goodbyeButton_Click(object sender, EventArgs e)
         {
-            outputLabel = "Goodbye, " + textBox1.Text + "!";
+             = "Goodbye, " + txtEnteredName.Text + "!";
+        }
+
+        private void goodbyeButton_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

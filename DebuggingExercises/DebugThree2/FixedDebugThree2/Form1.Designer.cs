@@ -31,8 +31,10 @@
             this.helloButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtEnteredName = new System.Windows.Forms.TextBox();
             this.outputLabel = new System.Windows.Forms.Label();
+            this.goodbyeButton = new System.Windows.Forms.Button();
+            this.lblOutput = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // helloButton
@@ -63,12 +65,12 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Enter your name: ";
             // 
-            // textBox1
+            // txtEnteredName
             // 
-            this.textBox1.Location = new System.Drawing.Point(148, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(93, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtEnteredName.Location = new System.Drawing.Point(148, 28);
+            this.txtEnteredName.Name = "txtEnteredName";
+            this.txtEnteredName.Size = new System.Drawing.Size(93, 20);
+            this.txtEnteredName.TabIndex = 4;
             // 
             // outputLabel
             // 
@@ -78,13 +80,33 @@
             this.outputLabel.Size = new System.Drawing.Size(0, 13);
             this.outputLabel.TabIndex = 5;
             // 
+            // goodbyeButton
+            // 
+            this.goodbyeButton.Location = new System.Drawing.Point(188, 121);
+            this.goodbyeButton.Name = "goodbyeButton";
+            this.goodbyeButton.Size = new System.Drawing.Size(75, 23);
+            this.goodbyeButton.TabIndex = 6;
+            this.goodbyeButton.Text = "goodbye";
+            this.goodbyeButton.UseVisualStyleBackColor = true;
+            this.goodbyeButton.Click += new System.EventHandler(this.goodbyeButton_Click_1);
+            // 
+            // lblOutput
+            // 
+            this.lblOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblOutput.Location = new System.Drawing.Point(90, 201);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(100, 23);
+            this.lblOutput.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.lblOutput);
+            this.Controls.Add(this.goodbyeButton);
             this.Controls.Add(this.outputLabel);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtEnteredName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.helloButton);
@@ -100,8 +122,10 @@
         private System.Windows.Forms.Button helloButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtEnteredName;
         private System.Windows.Forms.Label outputLabel;
+        private System.Windows.Forms.Button goodbyeButton;
+        private System.Windows.Forms.Label lblOutput;
     }
 }
 

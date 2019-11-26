@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.okButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNum1 = new System.Windows.Forms.TextBox();
+            this.txtNum2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.outputLabel = new System.Windows.Forms.Label();
+            this.ouputLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // okButton
@@ -45,19 +46,19 @@
             this.okButton.UseVisualStyleBackColor = true;
             this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
-            // textBox1
+            // txtNum1
             // 
-            this.textBox1.Location = new System.Drawing.Point(53, 79);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(60, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtNum1.Location = new System.Drawing.Point(53, 79);
+            this.txtNum1.Name = "txtNum1";
+            this.txtNum1.Size = new System.Drawing.Size(60, 20);
+            this.txtNum1.TabIndex = 1;
             // 
-            // textBox2
+            // txtNum2
             // 
-            this.textBox2.Location = new System.Drawing.Point(142, 79);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(58, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtNum2.Location = new System.Drawing.Point(142, 79);
+            this.txtNum2.Name = "txtNum2";
+            this.txtNum2.Size = new System.Drawing.Size(58, 20);
+            this.txtNum2.TabIndex = 2;
             // 
             // label1
             // 
@@ -76,15 +77,24 @@
             this.outputLabel.Size = new System.Drawing.Size(0, 13);
             this.outputLabel.TabIndex = 4;
             // 
+            // ouputLabel
+            // 
+            this.ouputLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.ouputLabel.Location = new System.Drawing.Point(79, 171);
+            this.ouputLabel.Name = "ouputLabel";
+            this.ouputLabel.Size = new System.Drawing.Size(184, 66);
+            this.ouputLabel.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.ouputLabel);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNum2);
+            this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.okButton);
             this.Name = "Form1";
             this.Text = "Multiplier";
@@ -96,10 +106,11 @@
         #endregion
 
         private System.Windows.Forms.Button okButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNum1;
+        private System.Windows.Forms.TextBox txtNum2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label outputLabel;
+        private System.Windows.Forms.Label ouputLabel;
     }
 }
 
